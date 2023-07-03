@@ -1,0 +1,378 @@
+:root {
+    --blue: #102B3E;
+    --white: #CED8E1;
+    --light: #6763DC;
+
+}
+
+* {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    background-color: var(--white);
+    justify-content: space-evenly;
+    gap: 35%;
+}
+
+.header_box {
+    display: flex;
+    border-radius: 10px;
+    background-color: var(--blue);
+    width: 150px;
+    margin: 40px
+}
+
+.header_last {
+    width: 200px;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.god_eye {
+    background-color: var(--light);
+    margin: 10px;
+    display: flex;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lense {
+    background-color: var(--white);
+    display: flex;
+    border-radius: 50%;
+    height: 19px;
+    width: 30px;
+    margin-left: 3px;
+}
+
+.stick {
+    margin-top: 26px;
+    background-color: var(--light);
+    width: 5px;
+    border-radius: 50px;
+    transform: rotate(-45deg);
+    height: 11px;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.hamburger_line {
+    background-color: var(--light);
+    width: 40px;
+    height: 5px;
+    border-radius: 50px;
+    margin: 5px 5px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 3372px;
+}
+
+.hero {
+    background-color: var(--blue);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.centered_block {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    margin-bottom: -280px;
+    justify-content: center;
+}
+
+.h1 {
+    display: flex;
+    flex-direction: row;
+    height: 12px;
+    gap: 15px;
+    margin: 20px;
+}
+
+.h1_text1 {
+    background-color: var(--light);
+    width: 80px;
+    border-radius: 50px;
+}
+
+.h1_text2 {
+    background-color: var(--light);
+    width: 200px;
+    border-radius: 50px;
+}
+
+.h1_text3 {
+    background-color: var(--light);
+    width: 140px;
+    border-radius: 50px;
+}
+
+.text {
+    width: 400px;
+    border-radius: 50px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.in_text {
+    background-color: var(--light);
+    width: 70px;
+    height: 7px;
+    border-radius: 50px;
+    margin: 7px;
+}
+
+.in_text1 {
+    background-color: var(--light);
+    width: 110px;
+    height: 7px;
+    border-radius: 50px;
+    margin: 7px;
+}
+
+.big_block {
+    height: 40px;
+    border-radius: 50px;
+    width: 170px;
+    background-color: var(--light);
+    margin: 30px;
+}
+
+.three_blocks {
+    gap: 35px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.block {
+    background-color: var(--light);
+    height: 220px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.white_block {
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    margin: 180px;
+}
+
+.types {
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.small1 {
+    background-color: var(--blue);
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    height: 10px;
+    width: 140px;
+    border-radius: 50px;
+}
+
+.small2 {
+    background-color: var(--blue);
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    height: 10px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.in_icons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.types1 {
+    margin: 240px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.width {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxer {
+    display: flex;
+    flex-direction: column;
+}
+
+.width_block {
+    background-color: var(--light);
+    height: 250px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.colum {
+    display: flex;
+    flex-direction: row;
+}
+
+.width_text {
+    background-color: var(--blue);
+    margin: 20px 10px 20px 10px;
+    height: 15px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.small_text {
+    display: flex;
+    flex-direction: row;
+}
+
+.small_text_in1 {
+    background-color: var(--blue);
+    margin: 10px 0 10px 10px;
+    height: 7px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.small_text_in2 {
+    background-color: var(--blue);
+    margin: 10px 0 10px 10px;
+    height: 7px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+.forgoten {
+    margin: 15px 15px 50px 15px;
+}
+
+.box_with_pointers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pointer_L {
+    border-width: 35px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.blocks_midle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.block_block {
+    height: 220px;
+    border-radius: 10px;
+    width: 335px;
+    background-color: var(--light);
+    margin: 10px;
+}
+
+.pointer_R {
+    border-width: 35px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.face_icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 140px;
+}
+
+.circule {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: var(--light);
+}
+
+.face_box {
+    margin: 20px;
+}
+.footer{
+    background-color: var(--blue);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_icons{
+    background-color: var(--light);
+border-radius: 10px;
+    height: 50px;
+    width: 50px;
+}
+.fot{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+.GG{
+    display: flex;
+    height: 5px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: var(--light);
+    margin: 20px 10px 20px 10px;
+}
+.last_box{
+    display: flex;
+}

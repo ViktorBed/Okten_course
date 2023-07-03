@@ -1,0 +1,15 @@
+@media  (max-width: 375px) {
+    .nav {
+        display: none;
+        width: 375px;
+    }
+    .header_right{
+        display: none;
+    }
+    .main_conteiner{
+        padding: 80px 120px;
+        display: inline-flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
