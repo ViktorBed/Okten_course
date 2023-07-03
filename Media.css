@@ -36,9 +36,6 @@
     }
     .hamburger{
         display: flex;
-        height: 100px;
-        width: 100px;
-
     }
     .about_title a{
         display: flex;
@@ -59,7 +56,6 @@
     }
     .logo{
         display: flex;
-        height: 100px;
-        width: 300px;
+        margin-left: 6px;
     }
 }
