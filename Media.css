@@ -23,7 +23,9 @@
         width: 100%;
         justify-content: space-between;
         align-items: center;
+        height: 155px;
     }
+
     .main{
         width: 1211px;
     }
@@ -56,7 +58,6 @@
     }
     .logo{
         display: flex;
-        margin-left: 6px;
         height: 100px;
         width: 300px;
     }
