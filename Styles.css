@@ -22,8 +22,9 @@
     display: flex;
     align-items: flex-start;
     gap: 25px;
-    font-family: Inter, serif;
+    font-family: Inter, sans-serif;
 }
+
 .nav_item a {
     text-decoration: none;
     color: #FFF;
@@ -49,7 +50,7 @@
     color: #FFF;
     text-align: center;
     font-size: 16px;
-    font-family: Inter serif;
+    font-family: Inter, sans-serif;
     font-weight: 700;
     line-height: 120%;
     letter-spacing: -0.176px;
@@ -69,7 +70,7 @@
     color: #FFF;
     text-align: center;
     font-size: 18px;
-    font-family: Inter serif;
+    font-family: Inter, sans-serif;
     line-height: 150%;
     letter-spacing: -0.198px;
     text-decoration: none;
@@ -89,7 +90,7 @@
     color: var(--red);
     text-align: center;
     font-size: 14px;
-    font-family: Russo One;
+    font-family: Russo One, sans-serif;
     line-height: 150%;
     letter-spacing: -0.154px;
 }
@@ -110,13 +111,13 @@
 .about_title {
     font-size: 64px;
     color: var(--heading);
-    font-family: Russo One;
+    font-family: Russo One, sans-serif;
     line-height: 80px;
 }
 
 .about {
     font-size: 18px;
-    font-family: Inter serif;
+    font-family: Inter, sans-serif;
     color: var(--text);
     line-height: 150%;
     letter-spacing: -0.198px;
@@ -124,6 +125,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .photo {
     display: flex;
     width: 100%;
@@ -147,7 +149,7 @@
 .h1 {
     color: var(--text);
     font-size: 40px;
-    font-family: Russo One;
+    font-family: Russo One, sans-serif;
     font-weight: 700;
     line-height: 120%;
     letter-spacing: -0.44px;
@@ -157,7 +159,7 @@
 .h2 {
     color: var(--text);
     font-size: 18px;
-    font-family: Inter serif;
+    font-family: Inter, sans-serif;
     line-height: 150%;
     letter-spacing: -0.198px;
 }
@@ -183,7 +185,7 @@
 
 .p {
     flex-direction: column;
-    font-family: Inter serif;
+    font-family: Inter, sans-serif;
 }
 
 .p1 {
@@ -239,12 +241,12 @@
     font-weight: 700;
     line-height: 120%;
     letter-spacing: -0.308px;
-    font-family: Inter serif;
+    font-family: Inter, sans-serif;
 }
 
 .t2 {
     font-size: 25px;
-    font-family: Inter serif;
+    font-family: Inter, sans-serif;
     line-height: 150%;
     letter-spacing: -0.198px;
     color: var(--text);
@@ -286,7 +288,7 @@
     display: flex;
     width: 401px;
     flex-direction: column;
-    font-family: Inter serif;
+    font-family: Inter, sans-serif;
     font-weight: 700;
     line-height: 120%;
     letter-spacing: -0.198px;
@@ -296,7 +298,7 @@
     font-size: 18px;
     flex-direction: column;
     color: var(--text);
-    font-family: Inter serif;
+    font-family: Inter, sans-serif;
     line-height: 150%;
     letter-spacing: -0.198px;
     opacity: .7;
@@ -323,7 +325,7 @@
 .text {
     padding-left: 15px;
     font-size: 32px;
-    font-family: Russo One;
+    font-family: Russo One, sans-serif;
     font-weight: 400;
     line-height: 120%;
     letter-spacing: -0.352px;
@@ -356,7 +358,7 @@
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    font-family: Inter serif;
+    font-family: Inter, sans-serif;
     font-size: 18px;
     color: black;
     line-height: 150%;
@@ -379,7 +381,7 @@
     color: #FFF;
     text-align: center;
     font-size: 18px;
-    font-family: Inter serif;
+    font-family: Inter, sans-serif;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: -0.198px;
@@ -394,7 +396,7 @@
     display: flex;
     width: 1320px;
     height: 1088px;
-    padding: 80px 60px 80px 0;
+    padding: 80px 60px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 20px;
@@ -411,7 +413,7 @@
 
 .bottom_text {
     font-size: 40px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-weight: 700;
     line-height: 120%;
     letter-spacing: -0.44px;
@@ -445,7 +447,7 @@
 
 .last_text {
     font-size: 40px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-weight: 700;
     line-height: 120%;
     letter-spacing: -0.44px;
@@ -471,7 +473,7 @@
 .youtube_text {
     color: #FFF;
     font-size: 18px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-weight: 600;
     line-height: 150%;
     letter-spacing: -0.198px;
@@ -486,7 +488,7 @@
 
 .video_name {
     font-size: 18px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-weight: 700;
     line-height: 130%;
     letter-spacing: -0.198px;
@@ -531,7 +533,7 @@
 
 .footer_text {
     font-size: 16px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     line-height: 150%;
     letter-spacing: -0.176px;
     opacity: 0.9;
@@ -553,7 +555,7 @@
 
 .red_text {
     font-size: 16px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-weight: 600;
     line-height: 150%;
     letter-spacing: -0.176px;
@@ -567,7 +569,7 @@
     height: 32px;
     flex-direction: column;
     font-size: 16px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     line-height: 150%;
     letter-spacing: -0.176px;
     text-align: center;
@@ -597,7 +599,7 @@
 
 .box_text {
     font-size: 22px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-weight: 700;
     line-height: 120%;
     letter-spacing: -0.242px;
@@ -613,7 +615,7 @@
 
 .box_last_text {
     font-size: 16px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     line-height: 150%;
     letter-spacing: -0.176px;
 }
@@ -650,7 +652,7 @@
     color: #FFF;
     text-align: center;
     font-size: 16px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-weight: 700;
     line-height: 120%;
     letter-spacing: -0.176px;
@@ -659,7 +661,7 @@
 .r_text {
     color: #FFF;
     font-size: 16px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     line-height: 150%;
     letter-spacing: -0.176px;
 }
@@ -682,15 +684,17 @@
 
 .map_text {
     font-size: 14px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     line-height: 150%;
     letter-spacing: -0.154px;
 }
+
 .map_text a {
     color: var(--white);
     opacity: .7;
 }
-.bright{
+
+.bright {
     width: 369px;
     height: 67px;
     background-color: #383843;
@@ -703,13 +707,25 @@
     margin-left: 335px;
     margin-top: 95px;
 }
-.site{
+
+.site {
     font-size: 19px;
-    font-family: Russo One;
+    font-family: Russo One, sans-serif;
     font-weight: 500;
     line-height: 120%;
     opacity: .7;
 }
-.site a{
+
+.site a {
     color: var(--white);
+}
+.hamburger{
+    display: none;
+    height: 40px;
+    width: 40px;
+}
+.logo{
+    display: flex;
+    height: 54px;
+    width: 159px;
 }
