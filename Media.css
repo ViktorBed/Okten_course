@@ -69,6 +69,7 @@
     .logo{
         display: flex;
         height: 150px;
+        width: 500px;
     }
     .alt{
         width: 1206px;
