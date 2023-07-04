@@ -24,7 +24,7 @@
         align-items: center;
         height: 155px;
         padding: 0 30px 0 0;
-        width: 1243px;
+        width: 1245px;
     }
 
     .main{
@@ -70,4 +70,11 @@
         display: flex;
         height: 150px;
     }
+    .alt{
+        width: 1206px;
+        display: flex;
+        height: 466px;
+        flex-direction: column;
+    }
+
 }
