@@ -20,47 +20,54 @@
     }
     .header_top{
         display: flex;
-        width: 100%;
         justify-content: space-between;
         align-items: center;
         height: 155px;
+        padding: 0 30px 0 0;
+        width: 1243px;
     }
 
     .main{
-        width: 1211px;
+        width: 1273px;
     }
     .main_conteiner{
         display: inline-flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 31px;
-        padding: 80px 60px 100px 60px;
+        padding: 80px 30px 100px 30px;
     }
     .hamburger{
         display: flex;
-        height: 100px;
-        width: 100px;
+        height: 173px;
+        width: 160px;
     }
-    .about_title a{
+    .about_title {
         display: flex;
         flex-direction: column;
         justify-content: center;
         font-weight: 700;
         line-height: 80px;
+        font-size: 100px;
     }
-    .about a{
-        font-weight: 700;
-        letter-spacing: -0.165px;
+    .about {
+        font-size: 54px;
+        font-family: Inter, sans-serif;
+        color: var(--text);
+        line-height: 150%;
+        letter-spacing: -0.198px;
+        width: 1088px;
+        display: flex;
+        flex-direction: column;
     }
     .tet{
         display: inline-flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 15px;
+        gap: 45px;
     }
     .logo{
         display: flex;
-        height: 100px;
-        width: 300px;
+        height: 150px;
     }
 }
