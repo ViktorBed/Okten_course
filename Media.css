@@ -7,9 +7,6 @@
         display: none;
     }
 
-    .mid {
-        display: none;
-    }
 
     .footer {
         display: none;
@@ -182,6 +179,48 @@
     .start{
         gap: 105px;
         margin-top: 157px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        padding: 60px 40px;
+        margin: 60px;
+        height: 595px
+    }
+    .in_box_photo{
+        height: 243px;
+        display: flex;
+        width: 183px;
+        flex-direction: column;
+    }
+    .text{
+        display: flex;
+        font-size: 54px;
+        width: 837px;
+        line-height: 150%;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+        margin: 160px 60px 60px 60px;
+    }
+    .photo1{
+        display: flex;
+        height: 1460px;
+        width: 1155px;
+        flex-direction: column;
+    }
+    .text1{
+        gap: 50px;
+    }
+    .text_in{
+        font-size: 54px;
+    }
+    .red_button{
+        display: flex;
+        height: 200px;
+        width: 100%;
+        align-self: center;
     }
 }
 

@@ -345,6 +345,8 @@
 
 .photo1 {
     border-radius: 10px;
+    height: 613px;
+    width: 499px;
 }
 
 .text1 {
@@ -736,4 +738,8 @@
 .cheak{
     height: 32px;
     width: 32px;
+}
+.in_box_photo{
+    height: 98px;
+    width: 98px;
 }
