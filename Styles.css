@@ -270,9 +270,9 @@
 .start_mid {
     display: flex;
     width: 745px;
-    align-items: center;
     gap: 9px;
     flex-direction: row;
+    align-items: flex-start;
 
 }
 
@@ -728,4 +728,12 @@
     display: flex;
     height: 54px;
     width: 159px;
+}
+.protect{
+    height: 64px;
+    width: 64px;
+}
+.cheak{
+    height: 32px;
+    width: 32px;
 }
