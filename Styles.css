@@ -547,6 +547,15 @@
     opacity: 0.9;
     color: var(--white);
 }
+.footer_text1 {
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    line-height: 150%;
+    letter-spacing: -0.176px;
+    opacity: 0.9;
+    color: var(--white);
+    width: 250px;
+}
 
 .footer_red {
     display: flex;

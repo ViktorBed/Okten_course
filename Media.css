@@ -19,7 +19,7 @@
 
     .main {
         width: 1273px;
-        height: 21000px;
+        height: 21500px;
     }
 
     .main_conteiner {
@@ -354,8 +354,102 @@
         width: 72px;
         display: flex;
     }
-}
-.footer{
-    display: none;
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 2378px;
+        width: 1273px;
+    }
+    .left_colum img{
+        display: flex;
+        height: 200px;
+        width: auto;
+        margin-left: -32px;
+    }
+    .left_colum{
+        margin: 60px;
+    }
+    .footer_text{
+        display: flex;
+        font-size: 34px;
+        width: 650px;
+    }
+    .footer_text1 {
+        display: flex;
+        font-size: 34px;
+        width: 538px;
+    }
+    .footer_red{
+        display: flex;
+        width: 548px;
+        flex-direction: row;
+        height: 90px;
+    }
+    .red_text{
+        font-size: 34px;
+        width: 419px;
+        display: flex;
+        flex-direction: row;
+    }
+    .ARR{
+        display: none;
+    }
+    .footer_mid{
+        display: flex;
+        flex-direction: column;
+        margin: 100px 0 0 60px;
+    }
+    .mid_box{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .box_text{
+        font-size: 54px;
+    }
+    .box_last_text a{
+        font-size: 50px;
+    }
+    .box_last_text {
+        height: 70px;
+    }
+    .box_l {
+        gap: 100px;
+    }
+    .phone_photo{
+        height: 48px;
+        width: 48px;
+        display: flex;
+    }
+    .phone{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .carete{
+        display: none;
+    }
+    .mail{
+        height: 50px;
+        width: 50px;
+        display: flex;
+    }
+    .r_text{
+        font-size: 30px;
+    }
+    .map{
+        display: flex;
+        height: fit-content;
+        width: 1153px;
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .map_text{
+        display: flex;
+        font-size: 30px;
+        width: 510px;
+    }
+    .bright{
+        display: none;
+    }
 }
 
