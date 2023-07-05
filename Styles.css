@@ -377,6 +377,7 @@
     gap: 10px;
     border-radius: 3px;
     background-color: var(--red);;
+
 }
 
 .in_red {
@@ -438,6 +439,8 @@
     gap: 10px;
     flex: 1 0 0;
     align-self: stretch;
+    width: 374px;
+    height: 400px;
 }
 
 .last {
@@ -742,4 +745,9 @@
 .in_box_photo{
     height: 98px;
     width: 98px;
+}
+.img{
+    height: 36px;
+    width: 26px;
+    display: flex;
 }
