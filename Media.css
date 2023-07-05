@@ -1,8 +1,4 @@
 @media (max-device-width: 600px) {
-    .footer {
-        display: none;
-    }
-
     .nav {
         display: none;
         width: 600px;
@@ -279,22 +275,20 @@
     .icon img {
         display: flex;
         width: 1009px;
-        flex-direction: column;
 
     }
 
     .icon {
         display: flex;
-        height: 537px;
-        width: 300px;
+        width: 1009px;
         flex-direction: column;
-        margin-left: 269px
-
+        margin: 100px;
     }
 
     .bottom_text {
         display: flex;
         font-size: 100px;
+        margin: 100px 0 0 110px;
     }
 
     .last {
@@ -360,5 +354,8 @@
         width: 72px;
         display: flex;
     }
+}
+.footer{
+    display: none;
 }
 
