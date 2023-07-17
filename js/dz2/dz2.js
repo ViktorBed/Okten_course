@@ -69,3 +69,15 @@ for (const user of users) {
         console.log(user);
     }
 }
+
+
+//addishinal
+
+let x = 0;
+if (x === 0) {
+    console.log(true);
+}
+else{
+    console.log(false)
+}
+i
