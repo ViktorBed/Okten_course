@@ -88,6 +88,7 @@ let c1 = "hello";
 let d1 = "okten";
 let x1 = 'constant value';
 {
+    let a1 = 100;
     console.log(a1);
     x1 = 'new value';
 }

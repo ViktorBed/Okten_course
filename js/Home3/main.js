@@ -3,19 +3,21 @@
 let array = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
 
 for (let i = 0; i < 10; i++) {
+    document.write('<div>')
     document.write(array[i]);
+    document.write('</div>')
 }
 
 //- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 
-for (let i = 1; i < 11; i++) {
-    document.write(`<div>day ${i}</div>`)
+for (let i = 0; i < 10; i++) {
+    document.write(`<div>day ${i + 1}</div>`)
 }
 
 //- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 
 let num = 1;
-while (num < 21) {
+while (num <= 20) {
     document.write(num);
     num++
 }
@@ -23,8 +25,8 @@ while (num < 21) {
 //- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 
 let i = 1;
-while (i < 21) {
-    document.write(`<div>while ${i}</div>`);
+while (i <= 20) {
+    document.write(`<h1>while ${i}</h1>`);
     i++
 }
 
@@ -35,10 +37,11 @@ let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'an
 
 
 document.write('<ul>');
-for (text of listOfItems) {
-    document.write(`<li>${text}</li>`)
+for (const item of listOfItems) {
+    document.write(`<li>${item}</li>`)
 }
 document.write('</ul>');
+
 
 //Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону  Зробити адекватну стилізацію
@@ -68,6 +71,10 @@ let products = [
     },
 ];
 
+for (const product of products) {
+    document.write(`<div><h3>${product.title}</h3><img src=${product.image}><p>${product.price}</p></div>`)
+}
+ 
 // за допомоги циклу вивести:
 //  - користувачів зі статусом true
 //  - користувачів зі статусом false

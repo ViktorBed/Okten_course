@@ -76,18 +76,17 @@ for (const user of users) {
 //- Є змінна х, якій ви надаєте довільне числове значення.
 // Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
 
-//let x = +prompt("x");
-// if (x === 0){
+// let x = +prompt("x");
+// if (x === 0) {
 //     console.log('ok')
-// }
-// else{
+// } else {
 //     console.log('not ok')
 // }
 
 //- Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
 // (в першу, другу, третю или четверту частину години).
 
-//let time = +prompt('tell me time');
+// let time = +prompt('tell me time');
 // if (time >= 0 && time <= 15){
 //     console.log('first')
 // }
@@ -103,23 +102,20 @@ for (const user of users) {
 
 //- У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
 
-//let day = +prompt('day decade');
+// let day = +prompt('day decade');
 // if (day >=1 && day <=11){
 //     console.log('1')
-// }
-// if (day >=11 && day <=21){
+// } else if (day >=11 && day <=21){
 //     console.log('2');
-// }
-// if (day >=11 && day <=21){
+// } else if (day >=11 && day <=21){
 //     console.log('2');
-// }
-// if (day >=21 && day <=31){
+// } else if (day >=21 && day <=31){
 //     console.log('3');
 // }
 
 //- Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
 
-//let key = 'wednesday'
+// let key = 'wednesday'
 // switch (key) {
 //     case 'monday':
 //         console.log('monday plans');
@@ -142,6 +138,9 @@ for (const user of users) {
 //     case 'sunday':
 //         console.log('sunday plans');
 //         break;
+//     default:
+//         console.log("enter correct data");
+//         break;
 // }
 
 
@@ -150,16 +149,14 @@ for (const user of users) {
 // Також потрібно врахувати коли введені рівні числа.
 
 
-let a = Math.random() * 100
-
-let b = Math.random() * 100
-
+let a = Math.round(Math.random() * 10 )
+console.log(Math.round(a));
+let b = Math.round(Math.random() * 10 )
+console.log(Math.round(b));
 if (a > b) {
     console.log(Math.round(a));
 } else if (b > a) {
     console.log(Math.round(b));
+} else if (a === b) {
+    console.log('rovno');
 }
-else if (a === b){
-        console.log('rovno');
-}
-
