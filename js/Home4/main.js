@@ -33,12 +33,20 @@
 //// - створити функцію яка повертає найбільше число з масиву
 //
 let arr = [4, 125, 53, 7, 23, 5, 31, 1,]
+//
+// function highNumber(arg1) {
+//     for (const arrElement of arr){
+//         return Math.max(arrElement);
+//     }
+// }
+//
+// console.log(highNumber([arr]));
 
-function lowNumber(arg1) {
-    for (let i = 0; i < arr.length; i++) {
-        const arrElement = arr[i]
-        return arr[i];
+function highNumber(arg1){
+
+    for (let i = 0; i < 8; i++) {
+        highNumber[i]=highNumber[i];
+        return highNumber[i];
     }
 }
-
-console.log(lowNumber(arr));
+console.log(i);
